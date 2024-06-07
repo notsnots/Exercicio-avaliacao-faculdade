@@ -1,11 +1,13 @@
 import java.util.Scanner;
 /**
  * Elabore um programa que leia um vetor de 30 valores reais e o escreva. A seguir, o programa dever trocar o elemento da posição i pelo da posição i + 2 e escrever novamente o vetor. A leitura, a troca e a escrita devem ser feitas por métodos.
+ @author Eduardo Rosa Rodrigues
+ @version 07/06/2024
  */
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double[] vetor = new double[10];
+        double[] vetor = new double[30];
 
         lerVetor(vetor, in);
 
